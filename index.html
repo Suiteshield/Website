@@ -359,7 +359,8 @@
         </div>
       </div>
       <div class="form-card reveal">
-        <div class="form-ok">Thanks! Your email app should now be open with your request ready to send. If it didn't open, call us at (226) 796-7691.</div>
+        <div class="form-ok">Thanks! Your request has been sent — we'll be in touch within one business day. If it's urgent, call us at (226) 796-7691.</div>
+        <div class="form-err">Sorry, something went wrong sending that. Please call us at (226) 796-7691 or email Info@suiteshieldplumbing.ca directly.</div>
         <form data-quote-form action="https://formspree.io/f/xgobgrjz" method="POST">
           <div class="form-row">
             <div class="field"><label for="name">Name</label><input type="text" id="name" name="name" required></div>
@@ -383,8 +384,10 @@
             <div class="field"><label for="address">Town</label><input type="text" id="address" name="address" placeholder="e.g. Woodstock"></div>
           </div>
           <div class="field"><label for="message">Tell us about the project</label><textarea id="message" name="message" required></textarea></div>
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+          <input type="hidden" name="_subject" value="New quote request from suiteshieldplumbing.ca">
           <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Send My Request</button>
-          <p class="form-note">Submitting opens an email to our team with your details — quick and direct, no account needed.</p>
+          <p class="form-note">Your message goes straight to our team — we'll reply within one business day.</p>
         </form>
       </div>
     </div>
